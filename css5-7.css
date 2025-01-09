@@ -1,0 +1,781 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.divMain {
+    background-color: #0b0b0e;
+    display: flex;
+    flex-direction: column;
+    gap: 112px;
+}
+
+main {
+    background-color: #0b0b0e;
+    display: flex;
+    flex-direction: column;
+    gap: 112px;
+}
+
+.headerContainer {
+    width: 1440;
+    height: 80px;
+    border-bottom: 1px solid #003004;
+}
+
+.headerBox {
+    display: flex;
+    padding: 14px 200px;
+    justify-content: center;
+    align-items: center;
+    gap: 463px;
+
+}
+
+ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+    
+}
+
+.mainOne {
+    display: flex;
+    width: 1040px;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    height: 376px;
+    gap: 95px;
+}
+
+.onemainDiv {
+    display: flex;
+    width: 564px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+}
+
+.layerDiv {
+    color: #fff;
+    font-size: 56px;
+    font-weight: 600;
+}
+
+.buildDiv {
+    color: #7a7a7a;
+    font-size: 16px;
+    font-weight: 500;
+}
+.centerDiv {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.orangeDiv {
+    border-radius: 24px;
+    background: #FF371A;
+    padding: 12px 24px;
+    width: 200px;
+
+}
+
+.orangeDiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.createDiv {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+    margin: auto;
+}
+
+.blackDiv {
+    border-radius: 24px;
+    border: 1px solid #2F2C33;
+    padding: 12px 24px;
+    width: 200px;
+}
+
+.blackDiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.oneEnd {
+    display: flex;
+    align-items: center;
+    gap: 32px;
+}
+
+.twoMain {
+    display: flex;
+    width: 1040px;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+    margin: 0 auto;
+}
+
+.innovateDiv {
+    color: #fff;
+    text-align: center;
+    font-size: 64px;
+    font-weight: 600;
+}
+
+.twomainBox {
+    display: flex;
+    align-items: flex-start;
+    gap: 24px;
+}
+
+.decentralizedDiv {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+    width: 508px;
+}
+
+.decentralizedBox {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+    padding: 16px;
+    border-radius: 12px;
+    background: #191919;
+}
+
+.decentralizedCont {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+}
+
+.agentDiv {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.bottomDiv {
+    display: flex;
+    padding: 16px;
+    align-items: center;
+    gap: 24px;
+    width: 508px;
+}
+
+.bottomDiv {
+    border-radius: 12px;
+    background: #191919;
+}
+
+.bottomText {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+}
+
+.apiDiv {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.rightBox {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+}
+
+.rightTop {
+    display: flex;
+    padding: 16px;
+    align-items: center;
+    gap: 24px;
+    width: 598px;
+    height: 280px;
+}
+
+.rightTop {
+    border-radius: 12px;
+    background: #191919;
+}
+
+.computeDiv {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+}
+
+.rightBottom {
+    display: flex;
+    padding: 16px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+    width: 598px;
+    height: 280px;
+}
+
+.rightBottom {
+    border-radius: 12px;
+    background: #191919;
+}
+
+.bottomEnd {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+}
+
+.threeBox {
+    display: flex;
+    width: 1040px;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+    margin: 0 auto;
+}
+
+.loveDiv {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    width: 768px;
+}
+
+.wallLove {
+    color: #fff;
+    font-size: 36px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.firstHand {
+    color: #7a7a7a;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.loveBottom {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+}
+
+.oneLove {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+
+.oneCard {
+    display: flex;
+    width: 508px;
+    padding: 32px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 32px;
+    height: 228px;
+}
+
+.oneCard {
+    border-radius: var(--radius-xl, 12px);
+    background: #191919;
+}
+
+.loveofLove {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+}
+
+.starLove {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+
+.kickDiv {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.loveEnd {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    width: 444px;
+}
+
+.siennaDiv {
+    border-radius: var(--radius-full, 9999px);
+    border: 0.75px solid rgba(0, 0, 0, 0.08);
+}
+
+.siennaStar {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.siennaBlue {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+}
+
+.siennaEnd {
+    color: #535862;
+    font-size: 16px;
+    font-weight: 400;
+    text-decoration-line: underline;
+    text-decoration-style: solid;
+}
+
+.fourBox {
+    display: flex;
+    width: 1040px;
+    padding: 64px;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+    margin: 0 auto;
+}
+.fourBox {
+    border-radius: 16px;
+    background: #191919;
+}
+
+.fourTop {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+.fourBottom {
+    display: flex;
+    align-items: flex-start;
+    gap: 16px;
+}
+
+.privacyDiv {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 6px;
+}
+
+.enterdiv {
+    display: flex;
+    padding: 14px;
+    align-items: center;
+    width: 338px;
+    
+}
+
+.enterdiv {
+    border-radius: var(--radius-md, 8px);
+    border: 1px solid #7A7A7A;
+    background: #0B0B0E;
+}
+.enterP {
+    color: #717680;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.weCare {
+    color: #7a7a7a;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.privacySpan {
+    color: #7a7a7a;
+    font-size: 14px;
+    font-weight: 400;
+    text-decoration-line: underline;
+    text-decoration-style: solid;
+
+}
+
+.subscribeDiv {
+    display: flex;
+    padding: 12px 24px;
+    justify-content: center;
+    align-items: center;
+    width: 126px;
+}
+
+.subscribeDiv {
+    border-radius: 12px;
+    background: #FF371A;
+}
+
+.subscribeP {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+
+.fiveBox {
+    display: flex;
+    width: 1040px;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+    margin: 0 auto;
+}
+
+.fiveboxHeader {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+.customizeWork {
+    color: #fff;
+    font-size: 45px;
+    font-weight: 800;
+    width: 485px;
+}
+
+.pellentesqueDiv {
+    color: #7a7a7a;
+    font-size: 18px;
+    font-weight: 400;
+    width: 523px;
+}
+
+.fiveboxMain {
+    display: flex;
+    align-items: flex-start;
+    gap: 24px;
+    width: 1040px;
+}
+
+
+.basicPlan {
+    display: flex;
+    padding: 40px;
+    justify-content: center;
+    align-items: flex-start;
+    width: 330px;
+    background: #191919;
+}
+
+.contentBox {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+}
+
+.priveDiv {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+}
+
+.basicDiv {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.basictwo {
+    display: flex;
+    width: 125px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 3px;
+}
+.basicP {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.dollarP {
+    color: #fff;
+    font-size: 30px;
+    font-weight: 800;
+}
+
+.perVisit {
+    color: #7a7a7a;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.lineDiv {
+    width: 304px;
+    height: 1px;
+    background-color: #888;
+}
+
+.lineunder {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+}
+
+.subscribeContent {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 44px;
+}
+
+.planDiv {
+    width: 264px;
+    height: 294px;
+}
+
+.planP {
+    color: #7A7A7A;
+
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 260%;
+}
+
+.planSvg {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.planDiv {
+    color: #7A7A7A;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 260%;
+}
+
+.buttonBuy {
+    display: flex;
+    padding: 20px 108px 21px 108px;
+    justify-content: center;
+    align-items: center;
+    width: 250px;
+
+}
+
+.buttonBuy {
+    border: 1.5px solid #FF371A;
+    background: #FF371A;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.popularDiv {
+    display: flex;
+    width: 122px;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 10px;
+
+}
+
+.popularB {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px 12px 6px 12px;
+
+}
+.popularB {
+    background: #FF371A;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+}
+.buttonBuytwo {
+    border: 1.5px solid #FF371A;
+    background: #191919;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+}
+.buttonBuytwo {
+    padding: 20px 108px 21px 108px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 250px;
+}
+
+.fiveboxFooter {
+    display: flex;
+    align-items: flex-start;
+    gap: 82px;
+}
+.fivefooterLeft {
+    display: flex;
+    align-items: flex-start;
+    gap: 13px;
+    width: 479px;
+
+}
+
+.afordableDiv {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 5px;
+}
+.affordableP {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 700;
+}
+.laciniaP {
+    color: #7a7a7a;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.footer {
+    display: flex;
+    width: 1040px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 64px;
+    margin: 0 auto;
+}
+
+.footerOne {
+    display: flex;
+    align-items: flex-start;
+    gap: 24px;
+}
+.innovateFooter {
+    display: flex;
+    width: 320px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 32px;
+}
+
+.designFooter {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.starFooter {
+    display: flex;
+    align-items: center;
+}
+.starsFoot {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3.2px;
+}
+.fiveStars {
+    display: flex;
+    align-items: flex-start;
+    gap: 1.6px;
+}
+
+.bestDesign {
+    color: #fff;
+    font-size: 11.2px;
+    font-weight: 600;
+}
+
+.reviewDiv {
+    color: #e9d7fe;
+    font-size: 9.6px;
+    font-weight: 500;
+}
+
+.twoFooter {
+    display: flex;
+    align-items: flex-start;
+    gap: 16px;
+}
+
+.productDiv {
+    display: flex;
+    width: 176px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+
+}
+
+.productColor {
+    color: #FFF;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.OverviewColor {
+    color: #535862;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.footerEnd {
+    display: flex;
+    padding-bottom: 32px;
+    align-items: center;
+    gap: 32px;
+    width: 1040px;
+    margin: 0 auto;
+}
+
+.copyFooter {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.logoFooter {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
